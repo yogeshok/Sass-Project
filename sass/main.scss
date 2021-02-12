@@ -9,6 +9,7 @@
 
 @import "pages/home";
 
+// different components of webpage
 @import "components/button";
 @import "components/composition";
 @import "components/feature-box";
@@ -18,6 +19,7 @@
 @import "components/form";
 @import "components/popup";
 
+//Part that contribute to layout of page
 @import "layout/grid";
 @import "layout/header";
 @import "layout/footer";

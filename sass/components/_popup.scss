@@ -10,6 +10,8 @@
   visibility: hidden;
   transition: all 0.3s;
 
+  // It is the content of popup card
+
   &__content {
     @include absCenter;
     border-radius: 3px;
@@ -55,7 +57,7 @@
   }
 
   //Open States
-
+  // target component refers to the targeted by href tag
   &:target {
     opacity: 1;
     visibility: visible;
