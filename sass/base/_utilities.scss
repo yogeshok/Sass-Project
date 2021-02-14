@@ -5,10 +5,18 @@
 //These utility classes are for margins
 .u-margin-bottom-big {
   margin-bottom: 8rem !important;
+
+  @include respond(tab-port) {
+    padding: 5rem 0 !important;
+  }
 }
 
 .u-margin-bottom-medium {
   margin-bottom: 4rem !important;
+
+  @include respond(tab-port) {
+    padding: 3rem 0 !important;
+  }
 }
 
 .u-margin-bottom-small {
