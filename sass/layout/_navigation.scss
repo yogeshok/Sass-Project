@@ -16,6 +16,7 @@
     text-align: center;
     cursor: pointer;
 
+    // media query for tablet-portrait and phone
     @include respond(tab-port) {
       top: 4rem;
       right: 4rem;

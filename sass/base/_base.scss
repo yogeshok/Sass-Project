@@ -10,13 +10,13 @@ html {
   // This defines what one rem is
   font-size: 62.5%;
   @include respond(tab-land) {
-    font-size: 56.25%; // 1rem= 9px
+    font-size: 65%; // 1rem= 9px
   }
   @include respond(tab-port) {
-    font-size: 50%; // 1rem= 8px
+    font-size: 59%; // 1rem= 8px
   }
   @include respond(big-screen) {
-    font-size: 75%; // 1rem= 12px
+    font-size: 85%; // 1rem= 12px
   }
 }
 
