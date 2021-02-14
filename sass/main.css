@@ -248,7 +248,7 @@ body {
 
 @media (max-width: 56.25em) {
   .section-features {
-    padding: 15rem 0;
+    padding: 12rem 0;
   }
 }
 
@@ -423,6 +423,7 @@ body {
   .composition__photo--p1 {
     bottom: 30rem;
     left: 22rem;
+    transform: scale(1.1);
   }
 }
 
@@ -435,6 +436,7 @@ body {
   .composition__photo--p2 {
     top: -13rem;
     left: 0;
+    transform: scale(1.2);
   }
 }
 
@@ -447,6 +449,7 @@ body {
   .composition__photo--p3 {
     top: -18rem;
     left: 10rem;
+    transform: scale(1.1);
   }
 }
 
@@ -626,6 +629,45 @@ body {
 .card__price-value {
   font-size: 6rem;
   font-weight: 100;
+}
+
+@media (max-width: 56.25em) {
+  .card {
+    height: auto;
+  }
+  .card__side {
+    height: auto;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .card__side--back {
+    transform: rotateY(0);
+  }
+  .card:hover .card__side--front {
+    transform: rotateY(0);
+  }
+  .card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+  }
+  .card__price-box {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 8rem;
+  }
+  .card__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+  .card__price-value {
+    font-size: 6rem;
+    font-weight: 100;
+  }
 }
 
 .story {

@@ -27,6 +27,7 @@
       @include respond(tab-port) {
         bottom: 30rem;
         left: 22rem;
+        transform: scale(1.1);
       }
     }
     &--p2 {
@@ -36,6 +37,7 @@
       @include respond(tab-port) {
         top: -13rem;
         left: 0;
+        transform: scale(1.2);
       }
     }
     &--p3 {
@@ -45,6 +47,7 @@
       @include respond(tab-port) {
         top: -18rem;
         left: 10rem;
+        transform: scale(1.1);
       }
     }
 
